@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+#wrap {
+  width: 950px;
+  margin: auto;
+}
+
+header {
+  padding-top: 20px;
+}
+
+nav {
+
+}
+
+#navUp {
+height: 40px;
+border-bottom: #985bff;
+background: url('bg.jpg');
+
+}
+
+.nav_left {
+  float: left;
+}
+.menu {
+position: relative;
+}
+
+.menu li {
+  float:left;
+}
+
+.menu a {
+
+}
+
+.novel{
+  float: right;
+
+}
+
+.nav_right {
+  float:right;
+}
+
+#navDown {
+
+height: 35px;
+background-color: #f6f6f6;
+border: 1px solid #e0e0e0;
+border-top: none;
+}
+
+.mMenu {
+float: right;
+
+}
+
+  .mMenu li {
+    float: left;
+  }
+
+  .mMenu a {
+    font-size: 14px;
+    color:#505050;
+    line-height: 35px;
+    padding-right: 15px;
+  }
+
+  .mMenu a:hover {
+    color:#1167c6;
+    text-decoration: underline;
+  }
+
+
+/*롤오/*/
+.over {
+  display: none;
+}
+
+.menu > li:hover .over {
+  display: block;
+}
+
+.menu > li:hover .off {
+  display: none;
+}
+
+.menu > li:hover .sub {
+  display: block;
+}
+
+
+
+/*서브*/
+ul.sub {
+  display: none;
+  position: absolute;
+  position: absolute;
+  top: 40px;
+
+
+}
+
+.sub li {
+  float: left;
+  padding-top: 12px;
+}
+
+.sub a {
+  color: #505050;
+
+}
+
+.sub a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.sub1 {
+  left:30px;
+}
+
+.sub2 {
+  left:10px;
+}
+
+.sub3 {
+  left: 70px;
+}
+
+.sub4 {
+  left:140px;
+}
+
+
+
+
+
+section {
+  height: 400px;
+}
+
+footer {
+
+}
+
+footer ul {
+
+  overflow: hidden;
+  border-top: 4px solid blue;
+  text-align: center;
+  padding: 10px 100px;
+  border-bottom: 2px solid lightblue;
+
+
+}
+
+footer li {
+
+font-size: 12px;
+float: left;
+
+}
+
+footer a {
+ color: black;
+padding: 0 2px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer address {
+  font-size: 12px;
+  font-style: normal;
+  text-align: center;
+}
